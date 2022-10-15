@@ -1,206 +1,96 @@
-/* Progate HTML CSS荳顔ｴ夂ｷｨ縲stylesheet */
+<!--縲Progate HTML CSS lesson 荳顔ｴ夂ｷｨ繧ｳ繝ｼ繝・index.html -->
 
-* {
-  box-sizing: border-box;
-}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progate</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+        </div>
 
-body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-.clear {
-  clear: left;
-}
-
-.container {
-  max-width: 1170px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top.png);
-  background-size: cover;
-  color: white;
-  text-align: center;
-}
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-}
-
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
-.btn {
-  padding: 8px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
-
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
-.header-left {
-  float: left;
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
- 
-  display: none;
-}
-
-.lesson-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 13px;
-  color: #b3aeb5;
-}
-
-.heading h3 {
-  font-weight: normal;
-}
-
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
+        <span class="fa fa-bars menu-icon"></span>
+  
+        <div class="header-right">
+          <a href="#">繝ｬ繝・せ繝ｳ</a>
+          <a href="#">譁ｰ隕冗匳骭ｲ</a>
+          <a href="#" class="login">繝ｭ繧ｰ繧､繝ｳ</a>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>LEARN TO CODE.</h1>
+        <h1>LEARN TO BE CREATIVE.</h1>
+        <p>Progate縺ｯ繧ｪ繝ｳ繝ｩ繧､繝ｳ繝励Ο繧ｰ繝ｩ繝溘Φ繧ｰ蟄ｦ鄙偵し繝ｼ繝薙せ縺ｧ縺吶・/p>
+        <p>蛻晏ｿ・・↓繧ゅｄ縺輔＠縺・せ繝ｩ繧､繝峨→繝ｬ繝・せ繝ｳ縺ｧ縲仝eb繧ｵ繝ｼ繝薙せ繧剃ｽ懊ｊ縺ｪ縺後ｉ繝励Ο繧ｰ繝ｩ繝溘Φ繧ｰ繧貞ｭｦ繧薙〒縺・″縺ｾ縺励ｇ縺・・/p>
+        <div class="btn-wrapper">
+          <a href="#" class="btn signup">譁ｰ隕冗匳骭ｲ縺ｯ縺薙■繧・/a>
+          <p>or</p>
+          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebook縺ｧ逋ｻ骭ｲ</a>
+          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitter縺ｧ逋ｻ骭ｲ</a>
+        </div>
+      </div>
+    </div>
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Learn Where to Get Started!</h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/html.png">
+              <p>HTML & CSS</p>
+            </div>
+            <p class="text-contents">Web繝壹・繧ｸ縺ｮ菴懈・縺ｫ菴ｿ逕ｨ縺輔ｌ繧玖ｨ隱槭〒縺吶・TML縺ｨCSS繧堤ｵ・∩蜷医ｏ縺帙ｋ縺薙→縺ｧ縲・撕逧・↑繝壹・繧ｸ繧剃ｽ懊ｊ荳翫￡繧九％縺ｨ縺後〒縺阪∪縺吶・/p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+              <p>jQuery</p>
+            </div>
+            <p class="text-contents">邏謨ｵ縺ｪ蜍輔″繧呈焔霆ｽ縺ｫ螳溯｣・〒縺阪ｋJavaScript繝ｩ繧､繝悶Λ繝ｪ縺ｧ縺吶・繧｢繝九Γ繝ｼ繧ｷ繝ｧ繝ｳ蜉ｹ譫懊ｒ縺､縺代◆繧翫、jax・医お繧､繧ｸ繝｣繝・け繧ｹ・峨ｒ菴ｿ縺｣縺ｦ螟夜Κ繝輔ぃ繧､繝ｫ繧定ｪｭ縺ｿ霎ｼ繧薙□繧翫→濶ｲ縲・↑縺薙→縺後〒縺阪∪縺吶・/p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/ruby.png">
+              <p>Ruby</p>
+            </div>
+            <p class="text-contents">繧ｪ繝ｼ繝励Φ繧ｽ繝ｼ繧ｹ縺ｮ蜍慕噪縺ｪ繝励Ο繧ｰ繝ｩ繝溘Φ繧ｰ險隱槭〒縲・繧ｷ繝ｳ繝励Ν縺輔→鬮倥＞逕溽肇諤ｧ繧貞ｙ縺医※縺・∪縺吶ょ､ｧ縺阪↑Web繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ縺九ｉ蟆上＆縺ｪ譌･逕ｨ繝・・繝ｫ縺ｾ縺ｧ縲√＆縺ｾ縺悶∪縺ｪ繧ｽ繝輔ヨ繧ｦ繧ｧ繧｢繧剃ｽ懊ｋ縺薙→縺後〒縺阪∪縺吶・/p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/php.png">
+              <p>PHP</p>
+            </div>
+            <p class="text-contents">HTML縺縺代〒縺ｯ繝壹・繧ｸ縺ｮ蜀・ｮｹ繧貞､峨∴繧九％縺ｨ縺ｯ縺ｧ縺阪∪縺帙ｓ縲１HP縺ｯHTML縺ｫ繝励Ο繧ｰ繝ｩ繝繧貞沂繧∬ｾｼ縺ｿ縲√◎繧後ｒ蜿ｯ閭ｽ縺ｫ縺励∪縺吶・/p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>縺輔＝縲√≠縺ｪ縺溘ｂProgate縺ｧ繝励Ο繧ｰ繝ｩ繝溘Φ繧ｰ繧貞ｭｦ繧薙〒縺ｿ縺ｾ縺帙ｓ縺・</h2>
+          <h3>Let's learn to code, learn to be creative!</h3>
+        </div>
+        <a href="#" class="btn message">縺輔▲縺昴￥髢狗匱縺吶ｋ</a>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
+        <p>Learn to code, learn to be creative.</p>
+      </div>
+    </footer>
+  </body>
+</html>
